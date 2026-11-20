@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# built by python -m src.sql
+data/aluminium_arbitrage.duckdb
+
+# local
+README copy.md
+QUESTIONS.md

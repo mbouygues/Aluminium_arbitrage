@@ -1,0 +1,8 @@
+pandas
+numpy
+duckdb
+matplotlib
+searoute          # sea distances, the straits each route crosses and its line for the map
+comtradeapicall   # UN Comtrade's own client, for US, Japanese and Canadian trade
+jupyterlab        # to run the three notebooks
+# src/download.py also needs tvDatafeed: pip install git+https://github.com/rongardF/tvdatafeed.git
