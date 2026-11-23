@@ -61,8 +61,8 @@ LB_PER_T = 2204.62262  # the Midwest premium is quoted in US dollars per pound
 # "marketing funding cost of c.5%", 2 Oct 2026, less EFFR at 3.88% that day.
 FUNDING_SPREAD = 0.011
 # Cargo insurance, a share of the metal's value per voyage: 2025 cargo premiums over goods trade,
-# IUMI 24.2bn / WTO 26,260bn
-INSURANCE_RATE = 0.0009
+# IUMI 24.2bn / WTO 26,260bn = 0.092%, rounded up to 0.1%
+INSURANCE_RATE = 0.001
 
 # --- the five origins and three destinations ----------------------------------
 # Each port is the coordinate searoute's port database gives it; routes.py lets searoute snap to
